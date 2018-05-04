@@ -46,7 +46,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/account' do
-    erb :
+    erb :account
   end
 
   get "/failure" do
